@@ -18,7 +18,6 @@ print(is_male)
 
 
 
-
 #Case sensitivity
 student_name="kibe"
 STUDENT_NAME="koech"
@@ -31,3 +30,23 @@ book_price_123=20
 
 x=y=z=10 #one value to many variables
 x,y,z=10,20,30 #multiple value
+
+
+#casting
+price=15
+qty=3
+total_price=price*qty
+print("your charges are" +str(total_price)+ "Ksh")
+
+first_name="Wilfred"
+second_name="kibet"
+third_name=first_name+" "+str(second_name)
+print("My third name is",third_name)
+
+residence = "kasarani"
+
+if residence=="kasarani" or residence=="Embakasi" or residence=="westlands":
+    print("You can be governer")
+else:
+    print("You are not governer")
+
