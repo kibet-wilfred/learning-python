@@ -50,3 +50,45 @@ if residence=="kasarani" or residence=="Embakasi" or residence=="westlands":
 else:
     print("You are not governer")
 
+
+num=19
+
+num=int(input("Enter the number to be tested:"))
+if num % 2 == 0:
+        print("Even")
+else:
+        print("Odd")
+
+
+country=input("Enter your country:")
+if country=="Kenya":
+    print("East african")
+elif country=="Uganda":
+    print("East african")
+elif country=="Tanzania":
+    print("East african")
+else:
+    print("Not east african")
+
+
+
+
+x= 1
+while x<=10:
+    if x==3 or x==5:
+
+        x+=1
+        continue
+    print("the number is :", x)
+    x+=1
+else:
+    print("ended")
+
+
+number=1
+total=0
+while number<=10:
+    if number%2==0:
+        total += number
+        number+=1
+        print("the sum of odd numbers is :", number)
